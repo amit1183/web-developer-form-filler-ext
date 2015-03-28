@@ -105,7 +105,7 @@ function fillForm(setSettings) {
         try {
             var submitButton = $(setSettings.submitQuery);
             if (submitButton.length) {
-                submitButton.click();
+                $(submitButton)[0].click();
             } else {
                 alert('Submit button query returned no results');
             }
